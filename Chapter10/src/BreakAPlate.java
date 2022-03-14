@@ -17,6 +17,16 @@ import java.awt.event.*;
 import java.awt.*;
 
 
+
+/*
+Program: BreakAPlate.java          Last Date of this Revision: February 26, 2022
+Purpose: A game that if you break all the plates displayed you get a prize
+Author: Muhammad Hafeez, 
+School: CHHS
+Course: Computer Science 30 
+ 
+*/
+
 public class BreakAPlate
 {
     
