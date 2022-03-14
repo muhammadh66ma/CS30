@@ -9,5 +9,5 @@
   5)Its mandatory because most swing objects are not thread safe. Pulling multiple threads risks memory consistency errors.
   
 
-  6)
+  6)A button is what the user interacts with to submit information and the label is what displays that answer or results 
   
