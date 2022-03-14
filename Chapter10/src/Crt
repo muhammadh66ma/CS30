@@ -1,0 +1,13 @@
+  1)It is a Graphical user interface which is basically a display with things like frames and button and it allows users to do activities and interact on
+
+  2) Event driven programming is when the flow of program execution is determined by events. Examples would be a user's actions like pressing keys or a message from the operating system.
+
+  3)When you add components directly to a frame you actually add components to a panel by default. So in reality there is no difference for adding components to the frame 
+
+  4)
+
+  5)Its mandatory because most swing objects are not thread safe. Pulling multiple threads risks memory consistency errors.
+  
+
+  6)
+  
