@@ -24,7 +24,7 @@ Purpose: A game that if you break all the plates displayed you get a prize
 Author: Muhammad Hafeez, 
 School: CHHS
 Course: Computer Science 30 
- 
+
 */
 
 public class BreakAPlate
