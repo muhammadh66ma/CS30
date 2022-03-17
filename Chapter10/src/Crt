@@ -4,7 +4,7 @@
 
   3)When you add components directly to a frame you actually add components to a panel by default. So in reality there is no difference for adding components to the frame 
 
-  4) Labels created with the Jlabel class are used to display text and cannot be changed by the user 
+  4) Jlabels are used to display text and cannot be changed by the user 
 
   5)Its mandatory because most swing objects are not thread safe. Pulling multiple threads risks memory consistency errors.
   
