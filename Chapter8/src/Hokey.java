@@ -20,8 +20,17 @@ public class Hokey {
 			
 		}
 		System.out.println(yPuck.toString());
-	}
-
+	  
+      if (yPuck.comparedTo(sPuck) == 1) { 
+    	  System.out.println("ypuck is heavier than sPuck");
+      }
+      else if (yPuck.comparedTo(sPuck) == -1) {
+    	  System.out.println("sPuck is heavier than yPuck");
+      }
+      else {
+    	  System.out.println("Pucks are equal");
+      }
 	
+   }
 }
 

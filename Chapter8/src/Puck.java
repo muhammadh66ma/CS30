@@ -55,4 +55,20 @@ public String getDivision(Object p)
 		return("the puck is a non-standard weight");
 	}
 }
+    public int comparedTo( Object p) {
+    	
+    	Puck testPuck = (Puck)p; 
+    	
+    	if(getWeight() > testPuck.getWeight()) {
+    		return 1;
+    	}
+    
+    	else if(getWeight() < testPuck.getWeight()) {
+    		return -1;
+    	}
+    	else {
+    		return 0;
+    	}
+    }
+    
 }
