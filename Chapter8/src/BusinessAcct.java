@@ -6,14 +6,11 @@ public class BusinessAcct extends Account
 {
 	public double balance;
 	private final int W = 10;
-	public BusinessAcct(String f, String l, double b)
 
-	{
-
-	super(fName, lName);
-	balance =b;
-	
+	public BusinessAcct (double bal, String fName, String lName, String str, String city, String st, String zip) {
+	super(bal,  fName, lName, str,  city,  st,  zip);
 	}
+	
 	public double getBalance()
 	{
 		return(balance);

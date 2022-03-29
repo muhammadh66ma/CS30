@@ -5,14 +5,14 @@ public class PersonalAcct extends Account
 {
 	public double balance;
 	private final int W = 2;
-	public PersonalAcct(String f, String l, double b)
-
-	{
-
-	super(fName, lName);
-	balance =b;
 	
+	
+
+	public PersonalAcct (double bal, String fName, String lName, String str, String city, String st, String zip) {
+	super(bal,  fName, lName, str,  city,  st,  zip);
 	}
+	
+
 	public double getBalance()
 	{
 		return(balance);
