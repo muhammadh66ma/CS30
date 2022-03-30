@@ -6,7 +6,7 @@ public class bTester {
 		
 		
 		PersonalAcct bank = new PersonalAcct(6900,"Muhammad", "Hafeez", "Alberta","Calgary", "Covemeadow", "T1X 1S3");
-		BusinessAcct B =  new BusinessAcct(5800, "James","Charls", "Alberta", "Fort Mac","Apple wood", "T3X 4G8");
+		BusinessAcct B =  new BusinessAcct(9999, "Abdulkadir","Abdalla", "Alberta", "Fort Mac","Apple wood", "T3X 4G8");
 		
 		System.out.println(bank.toString() + "\n");
 		
