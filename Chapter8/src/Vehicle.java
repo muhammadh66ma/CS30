@@ -1,19 +1,18 @@
 abstract class Vehicle {
-	private int fuelEconomyCity, fuelEconomyHwy;
+	private int topSpeed;
 	private int seatingCapacity;
 	private double cargoVolume;
 
 	
-	public Vehicle(int fECity, int fEHwy, int seating, double cargo) {
-		fuelEconomyCity = fECity;
-		fuelEconomyHwy = fEHwy;
+	public Vehicle(int tSpeed, int seating, double cargo) {
+		topSpeed = tSpeed;
 		seatingCapacity = seating;
 		cargoVolume = cargo;
 	}
 	
 		
 
-	 public int getFEHwy() {
+	 public int tSpeed () {
 	 	return(fuelEconomyHwy);
 	 }
 
