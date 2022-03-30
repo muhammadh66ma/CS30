@@ -6,10 +6,14 @@ public class bTester {
 		
 		
 		PersonalAcct bank = new PersonalAcct(6900,"Muhammad", "Hafeez", "Alberta","Calgary", "Covemeadow", "T1X 1S3");
-		BusinessAcct Ac =  new PersonalAcct(5800, "Charls","James", "Alberta", "Fort Mac","Apple wood", "T3X 4G8");
+		BusinessAcct B =  new BusinessAcct(5800, "James","Charls", "Alberta", "Fort Mac","Apple wood", "T3X 4G8");
 		
-		System.out.println(new PersonalAcct);
+		System.out.println(bank.toString() + "\n");
+		
+		System.out.println(B.toString());
+		
 		
 		
 		
 		}
+}

@@ -3,7 +3,7 @@ import java.text.NumberFormat;
 public class PersonalAcct extends Account
 
 {
-	public double balance;
+
 	private final int W = 2;
 	
 	
@@ -13,35 +13,24 @@ public class PersonalAcct extends Account
 	}
 	
 
-	public double getBalance()
-	{
-		return(balance);
-	}
+
 	
 	public void withdraw(double x)
 	{
-		if(balance >= x)
+		if(super.getBalance() >= x)
 		{
 			if(x >100)
 			{
-				balance = balance - x;
+				super.deposit(super.getBalance()-x);
 			}
 			else
 			{
-				balance = balance -x -W;
+				super.deposit(super.getBalance()-x -W);
 			}
 	}
 	}
-	
-	public void deposit(double added)
-	{
-		balance = balance + added;
-	}
-	
-	public String toString()
-	
-	{
-		NumberFormat money = NumberFormat.getInstance();
-		return("You have $" + money.format(balance) + " in your account");
-	}
 }
+	
+	
+	
+	
