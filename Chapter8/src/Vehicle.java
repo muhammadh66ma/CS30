@@ -25,7 +25,7 @@ abstract class Vehicle {
 	 }
 
 
-	
+	 
 	 public int bT() {
 	 	return(bodyType);
 	 }
