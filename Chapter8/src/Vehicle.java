@@ -1,42 +1,38 @@
+
 abstract class Vehicle {
 	private int topSpeed;
-	private int seatingCapacity;
-	private double cargoVolume;
+	private double engineSize;
+	private int bodyType;
 
-	
-	public Vehicle(int tSpeed, int seating, double cargo) {
-		topSpeed = tSpeed;
-		seatingCapacity = seating;
-		cargoVolume = cargo;
+
+	public Vehicle(int tS, double eS, int bT) {
+		topSpeed = tS;
+		
+		engineSize = eS;
+		bodyType = bT;
 	}
 	
-		
 
-	 public int tSpeed () {
-	 	return(fuelEconomyHwy);
+
+	 public int tS() {
+	 	return(topSpeed);
 	 }
 
 
 
-	 public int getFECity() {
-	 	return(fuelEconomyCity);
-	 }
-
-
-	
-	 public int getSeating() {
-	 	return(seatingCapacity);
+	 public double eS() {
+	 	return(engineSize);
 	 }
 
 
 	
-	 public double getCargoVolume() {
-	 	return(cargoVolume);
+	 public int bT() {
+	 	return(bodyType);
 	 }
 
 
-
-	abstract String cargoContainer();
+	
+	abstract String bTContainer();
 	
 	
 	
