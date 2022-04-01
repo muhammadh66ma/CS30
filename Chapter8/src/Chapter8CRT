@@ -4,3 +4,7 @@
  
  2)
  It would be available to both due to 
+ 
+ 3)
+ An abstract method is a forces its immediate subclass to implement the function of all abstract methods. 
+ Where as overriding is optional and is not always a necessity for the subclasses. 
