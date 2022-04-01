@@ -1,0 +1,6 @@
+ 1)
+ The difference is an has-a relationship is inheritance. The classes which inherit are known as sub classes an example would be car which is a sub class inherited from vehicle
+ while is-a relationship is composition.
+ 
+ 2)
+ 
