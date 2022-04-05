@@ -1,24 +1,25 @@
 package University;
 
  public class Staff extends UEmployee 
- { 	private String jobtitle; 
+ { 	private String professionName; 
 	
 
-    public Staff(String name, double salary, String jobtitle) { 		
-    	super(name, salary); 		
-		this.jobtitle = jobtitle;	}
-			public String getJobtitle() { 				
-				return jobtitle; 				}
+   public Staff(String name, double salary, String professionName) { 		
+   super(name, salary); 		
+   this.professionName = professionName;	}
+	public String professionName() { 
+		
+	return professionName; 				}
 				
-			public void setJobtitle(String jobtitle) { 					
-					this.jobtitle=  jobtitle; 
+		public void setprofessionName(String professionName) { 					
+		this.professionName=  professionName; 
 					
 				  }
 		
-			 public String toString()
-		        {
-		            return(super.getName()+ jobtitle + super.getSalary());
-		        }
+	 public String toString()
+	        {
+     return(super.getName()+ professionName + super.getSalary());
+		         }
 		          
 					
 				

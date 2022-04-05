@@ -1,26 +1,26 @@
 package University;
 public class Faculty extends UEmployee {
-	 private String departmentName;			
+	 private String divisionName;			
 
-public Faculty(String name, double salary, String departmentName) {
+public Faculty(String name, double salary, String divisionName) {
 		super(name, salary); 			
-					this.departmentName = departmentName;		}
+					this.divisionName = divisionName;		}
 		      
-				public String getDepartment() 
+				public String getdivision() 
 				{ 
 				    
-					return departmentName;
+					return divisionName;
 				    
 				}
-				       public void setDepartment(String departmentName) { 		     
-				    	   this.departmentName = departmentName; 
+				       public void setdivision(String divisionName) { 		     
+				    	   this.divisionName = divisionName; 
 					       
 				       }
 				       
 
 				       public String toString()
 				        {
-				            return(super.getName()+ departmentName+ super.getSalary());
+				            return(super.getName()+ divisionName+ super.getSalary());
 				        }
 				          
 				           
