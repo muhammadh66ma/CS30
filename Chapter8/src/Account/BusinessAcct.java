@@ -1,25 +1,25 @@
+package Account;
+
+
 import java.text.NumberFormat;
 
-public class PersonalAcct extends Account
+public class BusinessAcct extends Account
 
-{
-
-	private final int W = 2;
+{ 
 	
-	
+	private final int W = 10;
 
-	public PersonalAcct (double bal, String fName, String lName, String str, String city, String st, String zip) {
+	public BusinessAcct (double bal, String fName, String lName, String str, String city, String st, String zip) {
 	super(bal,  fName, lName, str,  city,  st,  zip);
 	}
 	
-
-
+	
 	
 	public void withdraw(double x)
 	{
 		if(super.getBalance() >= x)
 		{
-			if(x >100)
+			if(x >500)
 			{
 				super.deposit(super.getBalance()-x);
 			}
@@ -29,9 +29,6 @@ public class PersonalAcct extends Account
 			}
 	}
 	}
+	
+	
 }
-	
-	
-
-	
-	

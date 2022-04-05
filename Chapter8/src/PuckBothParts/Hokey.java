@@ -1,3 +1,4 @@
+package PuckBothParts;
 public class Hokey {
 
 	public static void main(String[] args) 
